@@ -4,25 +4,13 @@ const radius = 5;
 // const area = PI * radius * radius;
 // i calculated the area in meters of the space with the equation and info that was given and decided to make the variable area a number instead of the equation 
 const area = 78.54
-
-let plants = 20;
-
-
 // created a variable for minimum space for plants 
 const minimumSpace = 0.8
+let plants = 20;
+let week = 1;
+let week2 = 2;
+let week3 = 3;
 
-console.log(area*minimumSpace)
+if()
 
-
-
-function growingPains(area, plants){
-    console.log(plants)
-    function doublePlants(plants){
-        return plants * plants
-    }
-    plants = plants;
-    console.log(plants)
-    
-
-}
 
