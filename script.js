@@ -7,10 +7,19 @@ const area = 78.54
 // created a variable for minimum space for plants 
 const minimumSpace = 0.8
 let plants = 20;
-let week = 1;
-let week2 = 2;
-let week3 = 3;
 
-if()
+//to determine the area that the plants need 
+let week1 = plants * minimumSpace
+let week2 = (week1 * 2);
+let week3 = (week2 * 2);
+
+console.log()
+
+let week1space = (week1 / area) * 100;
+let week2space = (week2 / area) * 100;
+let week3space = (week3 / area) * 100;
+
+
+
 
 
