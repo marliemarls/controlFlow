@@ -6,8 +6,9 @@ const area = PI * radius * radius;
 // created a variable for minimum space for plants 
 const minimumSpace = 0.8
 let plants = 20;
+const maxCapacity = area/minimumSpace
 
-//to determine the area that the plants will have in the weeks 1-3
+//to determine minimum area that the plants will need in the weeks 1-3
 let week1 = plants * minimumSpace /* 16*/
 let week2 = (week1 * 2); /* 32*/
 let week3 = (week2 * 2); /* 64*/
@@ -23,8 +24,8 @@ console.log(week1space, week2space, week3space)
 //
 let weekArray = [week1space, week2space, week3space]
 switch(weekArray){
-    case [0]: 
-            if([0], )
+    case [0]:
+
 }
 
 
