@@ -22,13 +22,21 @@ let week3space = (week3 / area) * 100; /* 80*/
 
 console.log(week1space, week2space, week3space)
 //
-let weekArray = [week1space, week2space, week3space]
-switch(weekArray){
-    case [0]:
+// let weekArray = [week1space, week2space, week3space]
+// switch(weekArray){
+//     case [0]:
 
+// }
+
+function plantsGrowth(weeks){
+    if(weeks === 1){
+        console.log("Theres more room for plants to be planted! The percentage of area the plants are taking up is " + week1space + ".")
+    } if(weeks === 2) {
+        console.log("They are growing at an acceptable rate, but the plants should be monitored. " + `${week2space}% of the area is being used.` )
+    } if(weeks >= 3){
+        console.log("The plants must be pruned." + `${week3space}% of the area is being taken up.`)
+    }
 }
 
-
-
-
+plantsGrowth(1)
 
